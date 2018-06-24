@@ -1,0 +1,10 @@
+<aside>
+  <h3>Code Examples</h3>
+  <nav>
+    <ul>
+      <li><a href="changeContent.php" id="link_1">Change HTML Content</a></li>
+      <li><a href="changeAttribute.php" id="link_2">Change Attributes</a></li>
+      <li><a href="changeCSS.php" id="link_3">Change CSS Values</a></li>
+    </ul>
+  </nav>
+</aside>

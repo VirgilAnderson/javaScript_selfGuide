@@ -1,0 +1,163 @@
+/*-------------------------------------------------
+Author: Virgil Anderson
+Title: Self Taught Javascript
+Date: 6/23/2018
+------------------------------------------------ */
+
+/*
+Color Pallete As hex codes
+
+color: #823457 Main Primary color (Plum)
+color: #C585A2 Light
+color: #A15376
+color: #691B3F
+color: #470624 Dark
+
+color: #9B4A3E Main Secondary color (Red)
+color: #EAA89E Light
+color: #BF6F62
+color: #7D2D20
+color: #551207 Dark
+
+color: #2E7242 	Main Secondary color (Green)
+color: #75AD86 Light
+color: #498E5E
+color: #185D2D
+color: #053F17 Dark
+
+color: #6B8E39	Main Complement color (Light Green)
+color: #BBD791 Light
+color: #8DB05A
+color: #50731D
+color: #314E07 Dark
+
+color: #d8fa99  High Contrast Color (Yellow/Green)
+------------------------------------------------ */
+
+/*
+Main Elements
+------------------------------------------------ */
+body {
+  background-color: #BBD791;
+  font-family: sans-serif;
+}
+header{
+  background-color: #823457;
+  margin: 0;
+  padding: 1% 2.5%;
+  color: #d8fa99;
+  text-align: left;
+}
+h1{
+  font-size: 2rem;
+}
+header h2{
+  font-size: 2.5em;
+  margin: 0;
+}
+article{
+  background-color: white;
+  margin: 1% auto;
+  width: 70%;
+  display: table;
+}
+main{
+  padding: 5% 7.5%;
+  margin: 0;
+  width: 50%;
+  float: left;
+  clear: left;
+}
+section{
+  padding: 1% 7.5%;
+  background-color: #EAA89E;
+  color: white;
+  margin: 0;
+  width: 85%;
+  float: left;
+  border-left: 5px solid #C585A2;
+}
+aside{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #BF6F62;
+  width: 35%;
+  float: right;
+  color: #BBD791;
+}
+aside h3{
+  font-size: 1.75em;
+}
+footer{
+  background-color: #823457;
+  margin: 0;
+  padding: 1%;
+  color: #d8fa99;
+  text-align: center;
+  border-top: 1px solid white;
+  clear: both;
+}
+
+/* ------------------------------------------------
+Main Nav Class Stylings
+*/
+
+.main_nav{
+  margin: auto;
+  padding: 0;
+  text-align: center;
+  background-color: gray;
+  font-size: 0;
+}
+.main_nav a{
+  display: inline-block;
+  width: 20%;
+  padding: .5%;
+  margin: 0;
+  font-size: 1.25rem;
+  text-decoration: none;
+  color: white;
+}
+.main_nav a:hover{
+  background-color: #7D2D20;
+}
+
+/* ------------------------------------------------
+Side Nav Stylings
+*/
+
+nav {
+
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  text-align: center;
+}
+li a{
+  display: block;
+  padding: 2.5%;
+  margin: 0;
+  font-size: 1.25em;
+  text-decoration: none;
+  color: white;
+}
+li a:hover{
+  background-color: #7D2D20;
+}
+.active{
+  background-color: #314E07;
+}
+
+/* ------------------------------------------------
+Class Stylings
+*/
+.code_example{
+  color: #b01717;
+  font-size: 1.25em;
+  font-family: serif;
+  text-align: center;
+}
