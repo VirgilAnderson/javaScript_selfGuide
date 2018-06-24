@@ -20,5 +20,5 @@
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
       </article>
     </div><!-- .row -->
-    <script>var page = "link_3"; // assign the class .active to the active page</script>
+    <script>var page = "link_4"; // assign the class .active to the active page</script>
     <?php INCLUDE(SHARED_PATH .'/footer.php'); ?>
