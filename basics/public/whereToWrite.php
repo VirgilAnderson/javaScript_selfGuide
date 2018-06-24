@@ -1,7 +1,7 @@
 <?php require_once('../private/initialize.php'); ?>
 <?php $page = "Where to write javaScript?"; // Change the page name?>
 <?php INCLUDE(SHARED_PATH . '/header.php'); ?>
-<?php INCLUDE(SHARED_PATH . '/introBanner.php'); ?>
+<?php INCLUDE(SHARED_PATH . '/whereToBanner.php'); ?>
       <article>
         <main>
           <h1>Where should I write my javaScript functions?</h1>
