@@ -5,6 +5,7 @@
       <li><a href="changeContent.php" id="link_1">Change HTML Content</a></li>
       <li><a href="changeAttribute.php" id="link_2">Change Attributes</a></li>
       <li><a href="changeCSS.php" id="link_3">Change CSS Values</a></li>
+      <li><a href="whereToWrite.php" id="link_4">Where to write javaScript</a></li>
     </ul>
   </nav>
 </aside>
