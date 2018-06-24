@@ -11,7 +11,7 @@
           <p class="code_example">&ltscript&gt</p>
           <p class="code_example">document.getElementById("demo").style.fontWeight="bold";</p>
           <p class="code_example">&lt/script&gt</p>
-          <p id="demo">This is bold</p>
+          <p id="demo">javaScript makes me bold!</p>
           <script>
             document.getElementById('demo').style.fontWeight="bold";
           </script>
