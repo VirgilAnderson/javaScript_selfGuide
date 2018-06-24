@@ -2,8 +2,8 @@
   <article>
       <section>
         <h3>Wondering where you should write your javaScript?</h3>
-        <p>You can change HTML content, HTML attribute values, CSS values and you can show or hide elements!</p>
-        <p>JavaScript ROCKS!!!</p>
+        <p>javaScript can be written just about anywhere. It is usually written in the head, body or on an external file</p>
+        <p>JavaScript is so much fun!!!</p>
       </section>
   </article>
 </div><!-- .row -->
