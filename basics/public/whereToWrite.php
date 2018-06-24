@@ -5,8 +5,8 @@
       <article>
         <main>
           <h1>Where should I write my javaScript functions?</h1>
-          <p>javaScript can be written in the head, body or on an external file</p>
-          <h2>Inline javaScript</h2>
+          <p>Depending on the circumstances, you can choose different places to write your javaScript. Simple code might just be added into the body or head of the html file whereas more complicated functions should be written and maintained externally to maximize load times and enable ease of code maintenance.</p>
+          <h2>javaScript in &lthead&gt and &ltbody&gt</h2>
           <p>If you want to embed javaScript into your head or body, you must place it inside of &ltscript&gt tags</p>
           <p class="code_example">&ltscript&gt</p>
           <p class="code_example">document.getElementById("demo").style.fontWeight="bold";</p>
