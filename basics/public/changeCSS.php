@@ -12,12 +12,12 @@
           <button onclick="document.getElementById('demo').style.fontSize='35px'">Click Me</button>
           <h2>Show Elements</h2>
           <p>javaScript can dynamically display hidden elements on the page at any time</p>
-          <p id="code_example">getElementById("demo_2").style.display ="block"; </p>
+          <p class="code_example">getElementById("demo_2").style.display ="block"; </p>
           <p id="demo_2" style="display: none">TAA DAAAA!!!!!</p>
           <button onclick="document.getElementById('demo_2').style.display='block'">Want to see a magic trick?</button>
           <h2>Hide Elements</h2>
           <p>javaScript can also dynamically hide elements</p>
-          <p id="code_example">getElementById("demo_3").style.display="none";</p>
+          <p class="code_example">getElementById("demo_3").style.display="none";</p>
           <p id="demo_3">Watch me disappear!</p>
           <button onclick="getElementById('demo_3').style.display='none'">Abra Cadabra</button>
         </main>
