@@ -11,7 +11,7 @@
           <p id="demo">Watch the text change before your very eyes</p>
           <button onclick="document.getElementById('demo').style.fontSize='35px'">Click Me</button>
           <h2>Show Elements</h2>
-          <p>javScript can dynamically display hidden elements on the page at any time</p>
+          <p>javaScript can dynamically display hidden elements on the page at any time</p>
           <p id="code_example">getElementById("demo_2").style.display ="block"; </p>
           <p id="demo_2" style="display: none">TAA DAAAA!!!!!</p>
           <button onclick="document.getElementById('demo_2').style.display='block'">Want to see a magic trick?</button>
