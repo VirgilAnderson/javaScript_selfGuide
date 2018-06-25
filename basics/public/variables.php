@@ -21,6 +21,20 @@
           <p>Code text is called a string. To input text, you follow the same process but use quotation marks surrounding your text information.</p>
           <p class="code_example">var box_2 = "String data here.";</p>
 
+          <h2>Writing variable data</h2>
+          <p>Now that we can create a variable and fill it with content, let's use the content.</p>
+          <p class="code_example">&ltp id="demo"&gt&lt/p&gt</p>
+          <p class="code_example">&ltscript&gt</p>
+          <p class="code_example">var airplane = "Mustang";</p>
+          <p class="code_example">document.getElementById("demo").innerHTML = airplane;</p>
+          <p class="code_example">&ltscript&gt</p>
+          <p id="demo"></p>
+          <script>
+            var airplane = "Mustang";
+            document.getElementById('demo').innerHTML = airplane;
+          </script>
+
+
 
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
