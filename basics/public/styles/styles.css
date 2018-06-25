@@ -73,12 +73,13 @@ main{
 }
 section{
   padding: 1% 7.5%;
-  background-color: #EAA89E;
+  font-size: 1.25rem;
+  background-color: #C585A2;
   color: white;
   margin: 0;
   width: 85%;
   float: left;
-  border-left: 5px solid #C585A2;
+  border-left: 5px solid #823457;
 }
 aside{
   margin: 0;
@@ -123,7 +124,7 @@ Main Nav Class Stylings
   color: white;
 }
 .main_nav a:hover{
-  background-color: #7D2D20;
+  background-color: #3e3d3d;
 }
 
 /* ------------------------------------------------
