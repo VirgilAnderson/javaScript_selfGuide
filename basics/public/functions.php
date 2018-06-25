@@ -18,6 +18,24 @@
           <p>You can call the function to run immediately or you can do it on a specific action. To run the code immediately, use the function call between your code tags. Function call looks like this:</p>
           <p class="code_example">name(parameter);</p>
 
+          <h2>Returning data with a function</h2>
+          <p>A function can be used to make a calculation or execute a task and then return the result. The syntax for a function return is a bit different because you'll need to add paramters which become variables to be used within the function. The syntax looks like this:</p>
+          <p class="code_example">function multiply(a, b){</p>
+          <p class="code_example">  return a * b;</p>
+          <p class="code_example">}</p>
+          <p>When you call this function, you'll need to add parameters into the function in order to give the function something to calculate.</p>
+          <p class="code_example">var x = multiply(3, 4);</p>
+          <p>Once you have the new information stored in a variable, you can print it out to the screen using any of the <a href="whereToOutput.php">output methods</a> we described earlier.</p>
+          <p id="demo">What is 3 * 4?</p>
+          <script>
+            function multiply(a, b){
+              return a * b;
+            }
+            var product = multiply(3, 4);
+
+          </script>
+          <button type="button" onclick="document.getElementById('demo').innerHTML = product;">Math</button>
+
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
       </article>
