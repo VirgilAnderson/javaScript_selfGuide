@@ -165,7 +165,10 @@ li a:hover{
 Class Stylings
 */
 .code_example{
-  color: #7D2D20;
+  color: #823457;
   font-size: 1.25em;
   font-family: serif;
+  padding:25px;
+  background-color: #BBD791;
+  border-left: 5px solid #823457;
 }
