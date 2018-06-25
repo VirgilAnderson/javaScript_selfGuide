@@ -10,10 +10,10 @@
   </head>
   <body>
     <header>
-      <h2>Programming is fun: JavaScript</h2>
+      <h2>Programming is fun: javaScript</h2>
     </header>
     <nav class="main_nav">
-      <a href="getElement.html">JavaScript</a>
+      <a href="getElement.html">javaScript</a>
       <a href="#">PHP</a>
       <a href="#">JQuery</a>
       <a href="#">API</a>

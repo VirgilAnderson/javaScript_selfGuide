@@ -1,5 +1,5 @@
 <footer>
-  <p>&copy Virgil Anderson <script type="text/javascript">var year = new Date();document.write(year.getFullYear());</script> </p>
+  <p>&copy Virgil Anderson <script type="text/javaScript">var year = new Date();document.write(year.getFullYear());</script> </p>
 </footer>
 </body>
 <script>

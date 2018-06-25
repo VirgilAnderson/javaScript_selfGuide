@@ -6,7 +6,7 @@
       <article>
         <main>
           <h1>Change Attributes</h1>
-          <p>With JavaScript, you can easily change attribute values like source, href, width, height, alt, lang, title, id, etc.</p>
+          <p>With javaScript, you can easily change attribute values like source, href, width, height, alt, lang, title, id, etc.</p>
           <p class="code_example">document.getElementById("myImage").src='pic_bulbon.gif'</p>
           <p>In this instance, we will change the image source attribute with a button click</a>
           <button onclick="document.getElementById('myImage').src='images/pic_bulbon.gif'">ON</button>
