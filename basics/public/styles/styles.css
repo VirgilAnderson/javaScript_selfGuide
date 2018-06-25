@@ -47,6 +47,10 @@ h1, h2, h3{
 h1{
   font-size: 2rem;
 }
+p{
+  line-height: 1.25;
+  margin: .75% 0;
+}
 header{
   background-color: #823457;
   margin: 0;
