@@ -7,7 +7,7 @@
       <li><a href="changeCSS.php" id="link_3">Change CSS Values</a></li>
       <li><a href="whereToWrite.php" id="link_4">Where to write javaScript</a></li>
       <li><a href="whereToOutput.php" id="link_5">Where to output javaScript</a></li>
-      <li><a href="variables.php" id="link_5">javaScript Variables</a></li>
+      <li><a href="variables.php" id="link_6">javaScript Variables</a></li>
     </ul>
   </nav>
 </aside>

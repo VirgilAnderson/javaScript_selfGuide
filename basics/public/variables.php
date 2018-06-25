@@ -14,8 +14,12 @@
 
           <h2>Assignment operator</h2>
           <p>To put information into your variable container, we must use the assignment operator. The assignment operator is the = sign.</p>
-          <p class="code_example">var box_1 = 8;</p>
+          <p class="code_example">box_1 = 8;</p>
           <p>Now our box stores the number 8. We can use this information to output the number later.</p>
+          <p>You can do assignment and declaration in seperate steps, or you can do both steps at the same time.</p>
+          <p class="code_example">var box_1 = 8;</p>
+          <p>Code text is called a string. To input text, you follow the same process but use quotation marks surrounding your text information.</p>
+          <p class="code_example">var box_2 = "String data here.";</p>
 
 
         </main>
