@@ -1,5 +1,5 @@
 <aside>
-  <h3>Code Examples</h3>
+  <h3>javaScript Examples</h3>
   <nav>
     <ul>
       <li><a href="changeContent.php" id="link_1">Change HTML Content</a></li>
