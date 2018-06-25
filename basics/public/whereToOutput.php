@@ -17,7 +17,10 @@
           <p class="code_example">document.write(5 + 6);</p>
           <script>document.write(5 + 6);</script>
 
-          
+          <h2>Outputting into the Alert Window</h2>
+          <p>Another option is to output content into an alert window</p>
+          <p class="code_example">window.alert(5 + 6);</p>
+          <button type="button" onclick="window.alert(5 + 6)">What is 5 + 6?</button>
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
       </article>
