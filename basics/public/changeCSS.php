@@ -18,8 +18,8 @@
           <h2>Hide Elements</h2>
           <p>javaScript can also dynamically hide elements</p>
           <p class="code_example">getElementById("demo_3").style.display="none";</p>
-          <p id="demo_3">Watch me disappear!</p>
-          <button onclick="getElementById('demo_3').style.display='none'">Abra Cadabra</button>
+          <p id="demo_3">I'm the Magic Man; now you see me, now you don't!</p>
+          <button onclick="getElementById('demo_3').style.display='none'">Abra Cadabra Homes!</button>
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
       </article>
