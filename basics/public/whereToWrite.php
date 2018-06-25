@@ -17,7 +17,12 @@
           </script>
           <h2>External javaScript</h2>
           <p>If you posses a large amount of code or several smaller functions, it makes more sense to place your javaScript into an external source.</p>
-          <p class="code_"
+          <p class="code_example">function myFunction(){</p>
+          <p class="code_example">  getElementById("demo_2").innerHTML = "I changed this paragraph from firstScript.js";</p>
+          <p class="code_example">}</p>
+          <p class="code_example">&ltscript&gt type="button" onclick="myFunction()">Try it&ltscript&gt</p>
+          <p id="demo_2">Pay attention to this text</p>
+          <button onclick="getElementById('demo_2').innerHTML = 'I changed this paragraph from firstScript.js'">Click me to change text</button>
 
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
