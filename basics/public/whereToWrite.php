@@ -23,9 +23,11 @@
           <p class="code_example">  getElementById("demo_2").innerHTML = "I changed this paragraph from firstScript.js";</p>
           <p class="code_example">}</p>
           <p class="code_example">&ltscript&gt type="button" onclick="myFunction()">Try it&ltscript&gt</p>
-          <p id="demo_2">Pay attention to this text</p>
-          <button onclick="getElementById('demo_2').innerHTML = 'I changed this paragraph from firstScript.js'">Click me to change text</button>
+          <p class="code_example">&ltscript src="javaScript/firstScript.js"&gt&lt/script&gt</p>
 
+          <p id="demo_2">Pay attention to this text</p>
+          <button type="button" onclick="myFunction()">Click me to change text</button>
+          <script src="javaScript/firstScript.js"></script>
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
       </article>
