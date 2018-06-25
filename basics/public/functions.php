@@ -13,6 +13,11 @@
           <p class="code_example"> code to be executed</p>
           <p class="code_example">}</p>
 
+          <h2>Calling the function</h2>
+          <p>Once you create a function, it will be patiently waiting for you to use it. In order to use the function you must Call the function.</p>
+          <p>You can call the function to run immediately or you can do it on a specific action. To run the code immediately, use the function call between your code tags. Function call looks like this:</p>
+          <p class="code_example">name(parameter);</p>
+
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
       </article>
