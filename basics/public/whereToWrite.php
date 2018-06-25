@@ -15,6 +15,9 @@
           <script>
             document.getElementById('demo').style.fontWeight="bold";
           </script>
+          <h2>External javaScript</h2>
+          <p>If you posses a large amount of code or several smaller functions, it makes more sense to place your javaScript into an external source.</p>
+          <p class="code_"
 
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
