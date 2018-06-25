@@ -15,6 +15,8 @@
           <script>
             document.getElementById('demo').style.fontWeight="bold";
           </script>
+
+
           <h2>External javaScript</h2>
           <p>If you posses a large amount of code or several smaller functions, it makes more sense to place your javaScript into an external source.</p>
           <p class="code_example">function myFunction(){</p>
@@ -23,14 +25,6 @@
           <p class="code_example">&ltscript&gt type="button" onclick="myFunction()">Try it&ltscript&gt</p>
           <p id="demo_2">Pay attention to this text</p>
           <button onclick="getElementById('demo_2').innerHTML = 'I changed this paragraph from firstScript.js'">Click me to change text</button>
-          <h2>Reference external javaScript</h2>
-          <p>Rather than embedding the file name in the button, you can also reference the external file and then call the function.</p>
-          <p class="code_example">&ltbutton type="button" onclick="functionName()"&gtTry it&ltbutton&gt</p>
-          <p class="code_example">&ltscript src="/javaScript/newScript.js"&gt&lt/script&gt</p>
-          <p id="demo_3">This text will change</p>
-
-          <button type="button" onclick="newFunction()">Click Me</button>
-          <script src="/javaScript/newScript.js"></script>
 
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
