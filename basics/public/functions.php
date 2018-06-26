@@ -9,9 +9,11 @@
 
           <h2>Basic function structure</h2>
           <p>A function includes a declaration of function, a name, parameters and a set of instructions.</p>
-          <p class="code_example">function name(parameter, parameter2){</p>
-          <p class="code_example"> code to be executed</p>
-          <p class="code_example">}</p>
+          <div class="code_example">
+            <p>function name(parameter, parameter2){</p>
+            <p class="indent"> code to be executed</p>
+            <p>}</p>
+          </div>
 
           <h2>Calling the function</h2>
           <p>Once you create a function, it will be patiently waiting for you to use it. In order to use the function you must Call the function.</p>
@@ -20,9 +22,11 @@
 
           <h2>Returning data with a function</h2>
           <p>A function can be used to make a calculation or execute a task and then return the result. The syntax for a function return is a bit different because you'll need to add paramters which become variables to be used within the function. The syntax looks like this:</p>
-          <p class="code_example">function multiply(a, b){</p>
-          <p class="code_example">  return a * b;</p>
-          <p class="code_example">}</p>
+          <div  class="code_example">
+            <p>function multiply(a, b){</p>
+            <p class="indent">  return a * b;</p>
+            <p>}</p>
+          </div>
           <p>When you call this function, you'll need to add parameters into the function in order to give the function something to calculate.</p>
           <p class="code_example">var x = multiply(3, 4);</p>
           <p>Once you have the new information stored in a variable, you can print it out to the screen using any of the <a href="whereToOutput.php">output methods</a> we described earlier.</p>

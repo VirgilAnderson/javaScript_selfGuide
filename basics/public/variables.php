@@ -23,11 +23,13 @@
 
           <h2>Writing variable data</h2>
           <p>Now that we can create a variable and fill it with content, let's use the content.</p>
-          <p class="code_example">&ltp id="demo"&gt&lt/p&gt</p>
-          <p class="code_example">&ltscript&gt</p>
-          <p class="code_example">var airplane = "Mustang";</p>
-          <p class="code_example">document.getElementById("demo").innerHTML = airplane;</p>
-          <p class="code_example">&ltscript&gt</p>
+          <p  class="code_example">&ltp id="demo"&gt&lt/p&gt</p>
+          <div class="code_example">
+            <p>&ltscript&gt</p>
+            <p class="indent">var airplane = "Mustang";</p>
+            <p class="indent">document.getElementById("demo").innerHTML = airplane;</p>
+            <p>&ltscript&gt</p>
+          </div>
           <p id="demo"></p>
           <script>
             var airplane = "Mustang";
