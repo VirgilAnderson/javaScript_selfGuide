@@ -20,9 +20,9 @@
           <p class="code_example">getElementById("demo_3").style.display="none";</p>
           <p id="demo_3">I'm the Magic Man; now you see me, now you don't!</p>
           <button onclick="getElementById('demo_3').style.display='none'">Abra Cadabra Homes!</button>
+          <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
-        <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
       </article>
     </div><!-- .row -->
     <script>

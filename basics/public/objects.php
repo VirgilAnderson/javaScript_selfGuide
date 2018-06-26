@@ -47,9 +47,9 @@
             };
           </script>
           <button type="button" onclick="document.getElementById('test').innerHTML = relative.fullName();">Click Me</button>
+          <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
-        <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
       </article>
     </div><!-- .row -->
     <script>

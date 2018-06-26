@@ -18,10 +18,9 @@
           <p class="code_example">onclick='document.getElementById("example").innerHTML = "Hello javaScript Programmer!"'</p>
           <p id="example">javaScript can change page content</p>
           <button onclick='document.getElementById("example").innerHTML = "Hello javaScript Programmer!"'>Click Me!</button>
-
+          <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
-        <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
       </article>
     </div><!-- .row -->
     <script>

@@ -39,10 +39,9 @@
 
           </script>
           <button type="button" onclick="document.getElementById('demo').innerHTML = product;">Math</button>
-
+          <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
-        <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
       </article>
     </div><!-- .row -->
     <script>

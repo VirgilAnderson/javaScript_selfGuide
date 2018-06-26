@@ -32,9 +32,9 @@
           <p id="demo_2">Pay attention to this text</p>
           <button type="button" onclick="myFunction()">Click me to change text</button>
           <script src="javaScript/firstScript.js"></script>
+          <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
-        <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
       </article>
     </div><!-- .row -->
     <script>

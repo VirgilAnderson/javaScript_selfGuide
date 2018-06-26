@@ -35,12 +35,9 @@
             var airplane = "Mustang";
             document.getElementById('demo').innerHTML = airplane;
           </script>
-
-
-
+          <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
-        <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
       </article>
     </div><!-- .row -->
     <script>

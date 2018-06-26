@@ -21,9 +21,9 @@
           <p>Another option is to output content into an alert window</p>
           <p class="code_example">window.alert(5 + 6);</p>
           <button type="button" onclick="window.alert(5 + 6)">What is 5 + 6?</button>
+          <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
-        <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
       </article>
     </div><!-- .row -->
     <script>
