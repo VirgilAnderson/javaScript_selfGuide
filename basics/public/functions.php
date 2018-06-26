@@ -1,5 +1,5 @@
 <?php require_once('../private/initialize.php'); ?>
-<?php $page = "Variables in javaScript"; // Change the page name?>
+<?php $page = "Functions in javaScript"; // Change the page name?>
 <?php INCLUDE(SHARED_PATH . '/header.php'); ?>
 <?php INCLUDE(SHARED_PATH . '/functionsBanner.php'); ?>
       <article>
