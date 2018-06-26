@@ -44,13 +44,14 @@ body {
 }
 h1, h2, h3{
   color: #19082A;
+  margin: 5% 0 2% 0;
 }
 h1{
   font-size: 2rem;
 }
 p{
   line-height: 1.25;
-  margin: .75% 0;
+  margin: 1% 0;
 }
 header{
   background-color: #050318;
@@ -85,7 +86,7 @@ main{
 section{
   padding: 1% 7.5%;
   font-size: 1.25rem;
-  background-color: #2E2958;
+  background-color: #5C2450;
   color: white;
   margin: 0;
   width: 85%;

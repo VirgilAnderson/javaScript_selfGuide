@@ -13,7 +13,6 @@
           <script>
             document.getElementById("demo").innerHTML = "This content is added dynamically";
           </script>
-          <hr>
           <h2>On button click</h2>
           <p>Use this method to add to the element whenever you click the button</p>
           <p class="code_example">onclick='document.getElementById("example").innerHTML = "Hello javaScript Programmer!"'</p>
