@@ -1,10 +1,10 @@
 <?php require_once('../private/initialize.php'); ?>
-<?php $page = "Variables in javaScript"; // Change the page name?>
+<?php $page = "javaScript Events"; // Change the page name?>
 <?php INCLUDE(SHARED_PATH . '/header.php'); ?>
 <?php INCLUDE(SHARED_PATH . '/eventsBanner.php'); ?>
       <article>
         <main>
-
+          <h1>javaScript Events</h1>
           <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>

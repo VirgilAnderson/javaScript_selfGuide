@@ -1,9 +1,9 @@
 <div class="row">
   <article>
       <section>
-        <h3>javaScript objects!</h3>
-        <p>Object oriented design is a powerful implementation practice that enables you to organize and group variables and functions together into a logical structure.</p>
-        <p>Now we're really cooking!</p>
+        <h3>javaScript events!</h3>
+        <p>After you've learned to create your methods and functions, it's useful to be able to trigger them when you want to. Events allow you to decide when to activate your functions.</p>
+        <p>We've finally come full circle!</p>
       </section>
   </article>
 </div><!-- .row -->
