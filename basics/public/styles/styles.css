@@ -75,6 +75,7 @@ article{
   margin: 1% auto;
   width: 70%;
   display: table;
+  opacity: .85;
 }
 main{
   padding: 5% 7.5%;
