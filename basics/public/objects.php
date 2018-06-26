@@ -24,6 +24,7 @@
 
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
+        <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
       </article>
     </div><!-- .row -->
     <script>var page = "link_8"; // assign the class .active to the active page</script>
