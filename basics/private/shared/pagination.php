@@ -8,5 +8,6 @@
     <a href="variables.php" id="6">6</a>
     <a href="functions.php" id="7">7</a>
     <a href="objects.php" id="8">8</a>
+    <a href="events.php" id="9">9</a>
   </div>
 </div>
