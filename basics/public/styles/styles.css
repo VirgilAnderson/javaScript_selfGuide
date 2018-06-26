@@ -7,42 +7,43 @@ Date: 6/23/2018
 /*
 Color Pallete As hex codes
 
-color: #823457 Main Primary color (Plum)
-color: #C585A2 Light
-color: #A15376
-color: #691B3F
-color: #470624 Dark
+*** Primary color:
 
-color: #9B4A3E Main Secondary color (Red)
-color: #EAA89E Light
-color: #BF6F62
-color: #7D2D20
-color: #551207 Dark
+   #19082A
+   #3E2556 - Light
+   #2A1440
+   #0D0218
+   #050009 - Dark
 
-color: #2E7242 	Main Secondary color (Green)
-color: #75AD86 Light
-color: #498E5E
-color: #185D2D
-color: #053F17 Dark
+*** Secondary color:
 
-color: #6B8E39	Main Complement color (Light Green)
-color: #BBD791 Light
-color: #8DB05A
-color: #50731D
-color: #314E07 Dark
+   #2D0625
+   #5C2450 - Light
+   #45123A
+   #190014
+   #0A0007 - Dark
 
-color: #d8fa99  High Contrast Color (Yellow/Green)
+*** Secondary color:
+
+   #0E0B2B
+   #2E2958 - Light
+   #1C1842
+   #050318
+   #010109 - Dark
 ------------------------------------------------ */
 
 /*
 Main Elements
 ------------------------------------------------ */
 body {
-  background-color: lightGray;
+  background-color: #010109;
   font-family: sans-serif;
+  background-image: url('../images/nebula.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 h1, h2, h3{
-  color: #470624;
+  color: #19082A;
 }
 h1{
   font-size: 2rem;
@@ -52,7 +53,7 @@ p{
   margin: .75% 0;
 }
 header{
-  background-color: #823457;
+  background-color: #050318;
   margin: 0;
   padding: 1% 2.5%;
   text-align: left;
@@ -84,18 +85,21 @@ main{
 section{
   padding: 1% 7.5%;
   font-size: 1.25rem;
-  background-color: #C585A2;
+  background-color: #2E2958;
   color: white;
   margin: 0;
   width: 85%;
   float: left;
-  border-left: 5px solid #823457;
+  border-left: 5px solid #010109;
+}
+section h3{
+  color: white;
 }
 aside{
   margin: 0;
   padding: 0;
   text-align: center;
-  background-color: #470624;
+  background-color: #050318;
   width: 35%;
   float: right;
 }
@@ -104,12 +108,12 @@ aside h3{
   color: white;
 }
 footer{
-  background-color: #823457;
+  background-color: #050318;
   margin: 0;
   padding: 1%;
   color: white;
   text-align: center;
-  border-top: 1px solid white;
+  border-top: 1px solid #2E2958;
   clear: both;
 }
 
@@ -121,7 +125,7 @@ Main Nav Class Stylings
   margin: auto;
   padding: 0;
   text-align: center;
-  background-color: #470624;
+  background-color: #3E2556;
   font-size: 0;
 }
 .main_nav a{
@@ -134,7 +138,7 @@ Main Nav Class Stylings
   color: white;
 }
 .main_nav a:hover{
-  background-color: #BF6F62;
+  background-color: #050009;
 }
 
 /* ------------------------------------------------
@@ -161,22 +165,22 @@ li a{
 
 }
 li a:hover{
-  background-color: #7D2D20;
+  background-color: #190014;
 }
 .active{
-  background-color: #314E07;
+  background-color: #0A0007;
 }
 
 /* ------------------------------------------------
 Class Stylings
 */
 .code_example{
-  color: #823457;
+  color: white;
   font-size: 1.25em;
   font-family: serif;
   padding:25px;
-  background-color: #BBD791;
-  border-left: 5px solid #823457;
+  background-color: #3E2556;
+  border-left: 5px solid #050009;
 }
 .pagination{
   width: 50%;
@@ -187,18 +191,18 @@ Class Stylings
 .pagination a{
   padding: 1% 2%;
   text-decoration: none;
-  border: solid 1px gray;
-  color: #823457;
+  border: solid 1px #010109;
+  color: #19082A;
   font-size: 1.25rem;
   font-family: serif;
 }
 .pagination a:hover{
-  background-color: #823457;
+  background-color: #2E2958;
   color: white;
 }
 .pagination a.paginationActive{
   color: white;
-  background-color: #BBD791;
+  background-color: #190014;
   color: white;
 }
 .indent{
