@@ -4,5 +4,6 @@
 </body>
 <script>
   document.getElementById(page).className = "active";
+  document.getElementById(page_2).className = "paginationActive";
 </script>
 </html>

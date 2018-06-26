@@ -30,7 +30,11 @@
           <script src="javaScript/firstScript.js"></script>
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
+        <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
       </article>
     </div><!-- .row -->
-    <script>var page = "link_4"; // assign the class .active to the active page</script>
+    <script>
+      var page = "link_4"; // assign the class .active to the active page
+      var page_2 = 4; // Assign the class .paginationActive to the active page
+    </script>
     <?php INCLUDE(SHARED_PATH .'/footer.php'); ?>

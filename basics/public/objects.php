@@ -27,5 +27,8 @@
         <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
       </article>
     </div><!-- .row -->
-    <script>var page = "link_8"; // assign the class .active to the active page</script>
+    <script>
+      var page = "link_8"; // assign the class .active to the active page
+      var page_2 = 8; // Assign the class .paginationActive to the active page
+    </script>
     <?php INCLUDE(SHARED_PATH .'/footer.php'); ?>

@@ -1,12 +1,12 @@
-<ul>
-  <li><a href=""><< | </a></li>
-  <li><a href="">1 | </a></li>
-  <li><a href="">2 | </a></li>
-  <li><a href="">3 | </a></li>
-  <li><a href="">4 | </a></li>
-  <li><a href="">5 | </a></li>
-  <li><a href="">6 | </a></li>
-  <li><a href="">7 | </a></li>
-  <li><a href="">8 | </a></li>
-  <li><a href=""> | >></a></li>
-</ul>
+<div class="row">
+  <div class="pagination">
+    <a href="changeContent.php" id="1">1</a>
+    <a href="changeAttribute.php" id="2">2</a>
+    <a href="changeCSS.php" id="3">3</a>
+    <a href="whereToWrite.php" id="4">4</a>
+    <a href="whereToOutput.php" id="5">5</a>
+    <a href="variables.php" id="6">6</a>
+    <a href="functions.php" id="7">7</a>
+    <a href="objects.php" id="8">8</a>
+  </div>
+</div>

@@ -38,7 +38,11 @@
 
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
+        <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
       </article>
     </div><!-- .row -->
-    <script>var page = "link_6"; // assign the class .active to the active page</script>
+    <script>
+    var page = "link_6"; // assign the class .active to the active page
+    var page_2 = 6; // Assign the class .paginationActive to the active page
+  </script>
     <?php INCLUDE(SHARED_PATH .'/footer.php'); ?>
