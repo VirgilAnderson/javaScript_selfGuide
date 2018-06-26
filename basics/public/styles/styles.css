@@ -185,9 +185,9 @@ Class Stylings
   border-left: 5px solid #050009;
 }
 .pagination{
-  width: 50%;
+  width: 90%;
   margin: auto;
-  padding: 15px 0;
+  padding: 0;
   text-align: center;
 }
 .pagination a{

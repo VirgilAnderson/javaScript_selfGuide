@@ -18,6 +18,7 @@
             var result = sampleText.length;
           </script>
           <button onclick="document.getElementById('demo').innerHTML = result">Click Here To Find Out</button>
+          <p>javaScript counts a single white space by itself as a character and adds it to the string length total.</p>
           <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
