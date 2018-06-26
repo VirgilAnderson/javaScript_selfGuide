@@ -121,7 +121,7 @@ Main Nav Class Stylings
   margin: auto;
   padding: 0;
   text-align: center;
-  background-color: gray;
+  background-color: #470624;
   font-size: 0;
 }
 .main_nav a{
@@ -134,7 +134,7 @@ Main Nav Class Stylings
   color: white;
 }
 .main_nav a:hover{
-  background-color: #3e3d3d;
+  background-color: #BF6F62;
 }
 
 /* ------------------------------------------------
