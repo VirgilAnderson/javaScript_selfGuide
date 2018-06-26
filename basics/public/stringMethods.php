@@ -4,7 +4,8 @@
 <?php INCLUDE(SHARED_PATH . '/stringMethodsBanner.php'); ?>
       <article>
         <main>
-
+          <h1>Using String Methods</h1>
+          <p>Strings as objects allows you to find out how many characters are contained within your string, search for specific content within your string or even extract bits out of a string.</p>
           <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
