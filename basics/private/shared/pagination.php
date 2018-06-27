@@ -11,6 +11,7 @@
     <a href="objects.php" id="8">8</a>
     <a href="events.php" id="9">9</a>
     <a href="stringMethods.php" id="10">10</a>
+    <a href="arrays.php" id="11">11</a>
     <a id="forward">&gt</a>
   </div>
 </div>

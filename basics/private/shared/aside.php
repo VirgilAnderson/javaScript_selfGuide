@@ -12,6 +12,7 @@
       <li><a href="objects.php" id="link_8">javaScript objects</a></li>
       <li><a href="events.php" id="link_9">javaScript events</a></li>
       <li><a href="stringMethods.php" id="link_10">String Methods</a></li>
+      <li><a href="arrays.php" id="link_11">Arrays</a></li>
     </ul>
   </nav>
 </aside>
