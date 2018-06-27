@@ -4,8 +4,23 @@
 <?php INCLUDE(SHARED_PATH . '/arraysBanner.php'); ?>
       <article>
         <main>
-
-
+          <h1>javaScript Arrays</h1>
+          <p>It frequently happens in coding that you will have a list of variables of the same type. For instance if you were building a website for a property management company, you might have many apartments. One might code that as follows:</p>
+          <div class="code_example">
+            <p>var apartment_1 = "N207";</p>
+            <p>var apartment_2 = "N208";</p>
+            <p>var apartment_3 = "N209";</p>
+          </div>
+          <p>What if you have 300 apartments? It is impractical to generate a separate variable for each apartment. That's why we use arrays.</p>
+          <p>Arrays allow you to store a list of variables inside of it.</p>
+          <p class="code_example">var apartment = ["N207", "N208", "N209"];</p>
+          <p>Now you can access the elements of the array by number, starting with 0.</p>
+          <p id="array_demo">What apartments are stored in the array?</p>
+          <script>
+            var apartment =["N207", "N208", "N209"];
+            var list = apartment[0] + ' ' + apartment[1] + ' ' + apartment[2];
+          </script>
+          <button onclick="document.getElementById('array_demo').innerHTML=list">Click to find out</button>
           <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
