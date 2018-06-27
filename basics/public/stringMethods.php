@@ -20,7 +20,16 @@
           <button onclick="document.getElementById('demo').innerHTML = result">Click Here To Find Out</button>
           <p>javaScript counts a single white space by itself as a character and adds it to the string length total.</p>
 
-          <p id="link_test">here</p>
+          <h2>Find a string within a string</h2>
+          <p>javaScript makes it easy to find specific data within the string that you are working with. We simply use the index of function.</p>
+          <p class="code_example">var string = "This is my string";</p>
+          <p class="code_example">var position = string.indexOf('string');</p>
+          <p id="index_of">What position does the word string sit in my string?</p>
+          <script>
+            var string="This is my string";
+            var pos = string.indexOf('string');
+          </script>
+          <button onclick="getElementById('index_of').innerHTML=pos">Click here to find out</button>
 
           <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
         </main>
