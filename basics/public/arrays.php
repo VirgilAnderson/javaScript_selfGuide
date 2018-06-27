@@ -21,6 +21,21 @@
             var list = apartment[0] + ' ' + apartment[1] + ' ' + apartment[2];
           </script>
           <button onclick="document.getElementById('array_demo').innerHTML=list">Click to find out</button>
+          <h2>Accessing array data</h2>
+          <p>Accessing the information stored within the array is easy. You simply treat it as a variable and place the number of the list (starting at 0) inside brackets.</p>
+          <p class="code_example">document.getElementById('demo').innerHTML = apartment[0];</p>
+          <p id="demo"></p>
+          <script>
+            document.getElementById('demo').innerHTML=apartment[0];
+          </script>
+          <p>In order to display all the data contained within an array, you can simply call the array without a number.</p>
+          <p class="code_example">document.getElementById('demo_all').innerHTML=apartment;</p>
+          <p id="demo_all"></p>
+          <script>
+            document.getElementById('demo_all').innerHTML=apartment;
+          </script>
+          <p>Arrays are frequently used with loops in order to store data in the loop through every iteration of the loop. We'll get to loops later.</p>
+          <p>Arrays should be thought of as objects. The only real difference between an array and an object is that an array accesses the variables by number, while the object accesses the data by name. That, and you can create methods within an object.</p>
           <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
