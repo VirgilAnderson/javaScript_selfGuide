@@ -7,5 +7,6 @@
   document.getElementById(page_2).className = "paginationActive";
 </script>
 <script src="javaScript/paginationControl.js"></script>
+<script src="javaScript/just5.js"></script>
 
 </html>

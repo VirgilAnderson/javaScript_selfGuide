@@ -12,7 +12,6 @@
           <button onclick="document.getElementById('myImage').src='images/pic_bulbon.gif'">ON</button>
           <img id="myImage" src="images/pic_bulboff.gif" style="width: 100px">
           <button onclick="document.getElementById('myImage').src='images/pic_bulboff.gif'">OFF</button>
-
           <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
