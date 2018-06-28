@@ -1,5 +1,6 @@
 <div class="row">
   <div class="pagination">
+    <a id="double_back" href="changeContent.php">&lt&lt</a>
     <a id="back">&lt</a>
     <a href="changeContent.php" id="1">1</a>
     <a href="changeAttribute.php" id="2">2</a>
@@ -13,5 +14,6 @@
     <a href="stringMethods.php" id="10">10</a>
     <a href="arrays.php" id="11">11</a>
     <a id="forward">&gt</a>
+    <a id="double_forward">&gt&gt</a>
   </div>
 </div>

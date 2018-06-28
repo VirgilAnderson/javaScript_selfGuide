@@ -29,7 +29,21 @@ if(page_2 <= 2){
   for(i=page_above; i <= totalLinks; i++){
     document.getElementById(i).style.display = "none";
   }
-
 }
+// Should we display the double_back link?
+if(page_2 == 1){
+  document.getElementById('double_back').style.display = "none";
+}
+
+// Set link for double_forward
+var end = document.getElementById(totalLinks).href;
+document.getElementById('double_forward').href = end;
+
+// Should we display the double_forward link?
+if(page_2 ==  totalLinks){
+  document.getElementById('double_forward').style.display = "none";
+}
+
+
 document.getElementById('beer').innerHTML=page_set;
 // else display current page +-2

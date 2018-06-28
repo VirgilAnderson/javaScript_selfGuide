@@ -36,7 +36,6 @@
           </script>
           <p>Arrays are frequently used with loops in order to store data in the loop through every iteration of the loop. We'll get to loops later.</p>
           <p>Arrays should be thought of as objects. The only real difference between an array and an object is that an array accesses the variables by number, while the object accesses the data by name. That, and you can create methods within an object.</p>
-          <p id="beer">Test</p>
           <?php INCLUDE(SHARED_PATH . '/pagination.php'); ?>
         </main>
         <?php INCLUDE(SHARED_PATH . '/aside.php'); ?>
